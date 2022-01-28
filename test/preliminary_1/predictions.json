@@ -1,0 +1,96 @@
+[
+    {
+        "inputs": [
+            {
+                "pk": 266510,
+                "file": null,
+                "image": {
+                    "pk": "46140e02-fc96-4ad1-ad81-a87ac16cb336",
+                    "name": "0.tiff"
+                },
+                "value": null,
+                "interface": {
+                    "pk": 40,
+                    "kind": "Image",
+                    "slug": "color-fundus-image",
+                    "title": "Color Fundus Image",
+                    "super_kind": "Image",
+                    "description": "Retinal color fundus image (CFI)",
+                    "default_value": null,
+                    "relative_path": "images/color-fundus"
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "outputs": [
+            {
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "interface": {
+                    "slug": "multiple-referable-glaucoma-likelihoods"
+                }
+            },
+            {
+                "value": [
+                    false,
+                    false,
+                    false,
+                    true,
+                    false,
+                    true,
+                    false,
+                    false,
+                    false,
+                    false
+                ],
+                "interface": {
+                    "slug": "multiple-referable-glaucoma-binary-decisions"
+                }
+            },
+            {
+                "value": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "interface": {
+                    "slug": "multiple-referable-ungradability-scores"
+                }
+            },
+            {
+                "value": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                ],
+                "interface": {
+                    "slug": "multiple-referable-ungradability-binary-decisions"
+                }
+            }
+        ]
+    }
+]
